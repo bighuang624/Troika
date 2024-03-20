@@ -1,11 +1,13 @@
 # Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning
 
 * **Title**: **[Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning](https://arxiv.org/pdf/2303.15230.pdf)**
-* **Authors**: [Siteng Huang](https://kyonhuang.top/), Biao Gong, Yutong Feng, Yiliang Lv, [Donglin Wang](https://milab.westlake.edu.cn/)
-* **Institutes**: Westlake University, Alibaba Group, Zhejiang University
+* **Authors**: [Siteng Huang](https://kyonhuang.top/), Biao Gong, Yutong Feng, Min Zhang, Yiliang Lv, [Donglin Wang](https://milab.westlake.edu.cn/)
+* **Institutes**: Zhejiang University, Alibaba Group, Westlake University
 * **More details**: [[arXiv]](https://arxiv.org/abs/2303.15230) | [[homepage]](https://kyonhuang.top/publication/Troika)
 
-The code will be available upon acceptance and approval.
+🎉The paper has been accepted by CVPR 2024!
+
+The public release of the source code is awaiting clearance and approval from Alibaba Group. We hope this process can be completed before May. Thank you.
 
 ## Overview
 
@@ -30,11 +32,11 @@ The following results are obtained with a pre-trained CLIP (ViT-L/14). More expe
 If you find this work useful in your research, please cite our paper:
 
 ```
-@article{Huang2023Troika,
+@inproceedings{Huang2024Troika,
     title={Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning},
-    author={Siteng Huang and Biao Gong and Yutong Feng and Yiliang Lv and Donglin Wang},
-    journal={arXiv preprint arXiv:2303.15230},
-    year={2023}
+    author={Siteng Huang and Biao Gong and Yutong Feng and Min Zhang and Yiliang Lv and Donglin Wang},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year={2024}
 }
 ```
 
