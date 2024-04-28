@@ -1,0 +1,50 @@
+model:
+  model_name: troika
+  prompt_template: ["a photo of x x", "a photo of x", "a photo of x"]
+  ctx_init: ["a photo of ", "a photo of ", "a photo of "]
+  clip_model: "ViT-L/14"
+  # clip_arch: 
+  cmt_layers: 3
+  init_lamda: 0.1
+  cross_attn_dropout: 0.1
+  adapter_dim: 64
+  adapter_dropout: 0.1
+  # branch
+  pair_loss_weight: 1.0
+  pair_inference_weight: 1.0
+  attr_loss_weight: 1.0
+  attr_inference_weight: 1.0
+  obj_loss_weight: 1.0
+  obj_inference_weight: 1.0
+
+train:
+  dataset: mit-states
+  # dataset_path: 
+  optimizer: Adam
+  scheduler: StepLR
+  step_size: 5
+  gamma: 0.5
+  lr: 0.0001
+  attr_dropout: 0.3
+  weight_decay: 0.00001
+  context_length: 8
+  train_batch_size: 64
+  gradient_accumulation_steps: 1
+  # seed: 
+  epochs: 10
+  epoch_start: 0
+  # save_path: 
+  val_metric: best_loss
+  save_final_model: True
+  # load_model: False     # False or model path
+
+test:
+  eval_batch_size: 32
+  open_world: False
+  # load_model: 
+  topk: 1
+  text_encoder_batch_size: 1024
+  # threshold: 0.4
+  threshold_trials: 50
+  bias: 0.001
+  text_first: True

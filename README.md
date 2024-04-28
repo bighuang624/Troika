@@ -3,11 +3,9 @@
 * **Title**: **[Troika: Multi-Path Cross-Modal Traction for Compositional Zero-Shot Learning](https://arxiv.org/pdf/2303.15230.pdf)**
 * **Authors**: [Siteng Huang](https://kyonhuang.top/), Biao Gong, Yutong Feng, Min Zhang, Yiliang Lv, [Donglin Wang](https://milab.westlake.edu.cn/)
 * **Institutes**: Zhejiang University, Alibaba Group, Westlake University
-* **More details**: [[arXiv]](https://arxiv.org/abs/2303.15230) | [[homepage]](https://kyonhuang.top/publication/Troika)
+* **More details**: [[arXiv]](https://arxiv.org/abs/2303.15230) | [[code]](https://github.com/bighuang624/Troika/code) | [[homepage]](https://kyonhuang.top/publication/Troika)
 
-🎉The paper has been accepted by CVPR 2024!
-
-The public release of the source code is awaiting clearance and approval from Alibaba Group. We hope this process can be completed before May. Thank you.
+🎉The paper has been accepted by CVPR 2024! The [code](https://github.com/bighuang624/Troika/code) has been released.
 
 ## Overview
 
@@ -45,3 +43,4 @@ If you find this work useful in your research, please cite our paper:
 Our code references the following projects:
 
 * [DFSP](https://github.com/Forest-art/DFSP)
+* [AdaptFormer](https://github.com/ShoufaChen/AdaptFormer)
